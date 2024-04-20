@@ -1,5 +1,5 @@
-from .message_format import (DataFrameSQLError,error_message, warning_message, info_message)
-from .validations import * 
+from .tools.message_format import (DataFrameSQLError,error_message, warning_message, info_message)
+from .tools.validations import * 
 import pandas as pd
 
 # Functions to create sql files with transformed dataframes data.
